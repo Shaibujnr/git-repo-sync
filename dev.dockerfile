@@ -26,4 +26,4 @@ RUN useradd -m git_repo_sync_user
 
 USER git_repo_sync_user
 
-CMD alembic upgrade head && uvicorn git_repo_sync.web_app:app --reload --workers 1 --host 0.0.0.0 --port 5000
+CMD uvicorn git_repo_sync.app:app --reload --workers 1 --host 0.0.0.0 --port $PORT

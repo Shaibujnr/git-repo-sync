@@ -1,13 +1,6 @@
 version: '3.7'
 
 services:
-    git_repo_syncdb:
-        image: postgres:12-alpine
-        container_name: git_repo_syncdb
-        ports:
-            - "5432:5432"
-        env_file: 
-            - env/.db.env
     git_repo_sync-api:
         build:
             context: .
@@ -19,14 +12,3 @@ services:
             - "5000:5000"
         env_file:
             - env/.env.dev
-        depends_on:
-            - git_repo_syncdb
-    git_repo_sync-pgadmin:
-        container_name: git_repo_sync-pgadmin
-        image: dpage/pgadmin4
-        env_file: 
-            - env/.pgadmin.env
-        ports:
-            - "5050:80"
-        depends_on:
-            - git_repo_syncdb
