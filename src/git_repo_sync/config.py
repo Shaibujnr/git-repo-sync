@@ -16,8 +16,8 @@ ALLOWED_HOSTS: CommaSeparatedStrings = config(
     "ALLOWED_HOSTS", cast=CommaSeparatedStrings, default="localhost"
 )
 
-GIT_SOURCE_USERNAME: str = Config("GIT_SOURCE_USERNAME", cast=str)
+GIT_SOURCE_USERNAME: str = config("GIT_SOURCE_USERNAME", cast=str)
 
-GIT_SOURCE_TOKEN: str = Config("GIT_SOURCE_TOKEN", cast=str)
+GIT_SOURCE_TOKEN: str = config("GIT_SOURCE_TOKEN", cast=str)
 
-GIT_STATE_PATH: str = Config("GIT_STATE_PATH", cast=str)
+GIT_STATE_PATH: str = config("GIT_STATE_PATH", cast=str)

@@ -1,0 +1,328 @@
+{
+    "push": {
+        "changes": [{
+            "forced": false,
+            "old": {
+                "name": "master",
+                "links": {
+                    "commits": {
+                        "href": "https://api.bitbucket.org/2.0/repositories/shaibujnr/git_repos_sync/commits/master"
+                    },
+                    "self": {
+                        "href": "https://api.bitbucket.org/2.0/repositories/shaibujnr/git_repos_sync/refs/branches/master"
+                    },
+                    "html": {
+                        "href": "https://bitbucket.org/shaibujnr/git_repos_sync/branch/master"
+                    }
+                },
+                "default_merge_strategy": "merge_commit",
+                "merge_strategies": ["merge_commit", "squash", "fast_forward"],
+                "type": "branch",
+                "target": {
+                    "rendered": {},
+                    "hash": "98421a9d02db7c0f871d6a7f439432c2dff52892",
+                    "links": {
+                        "self": {
+                            "href": "https://api.bitbucket.org/2.0/repositories/shaibujnr/git_repos_sync/commit/98421a9d02db7c0f871d6a7f439432c2dff52892"
+                        },
+                        "html": {
+                            "href": "https://bitbucket.org/shaibujnr/git_repos_sync/commits/98421a9d02db7c0f871d6a7f439432c2dff52892"
+                        }
+                    },
+                    "author": {
+                        "raw": "Shaibu Shaibu <s.shaibu.jnr@gmail.com>",
+                        "type": "author",
+                        "user": {
+                            "display_name": "Shaibu Shaibu",
+                            "uuid": "{70c7f42e-c86b-4e95-bf64-5da83f0d6ba7}",
+                            "links": {
+                                "self": {
+                                    "href": "https://api.bitbucket.org/2.0/users/%7B70c7f42e-c86b-4e95-bf64-5da83f0d6ba7%7D"
+                                },
+                                "html": {
+                                    "href": "https://bitbucket.org/%7B70c7f42e-c86b-4e95-bf64-5da83f0d6ba7%7D/"
+                                },
+                                "avatar": {
+                                    "href": "https://secure.gravatar.com/avatar/d757daa4bb62d91b15f38493e22ef34e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-0.png"
+                                }
+                            },
+                            "nickname": "shaibujnr",
+                            "type": "user",
+                            "account_id": "557058:9cebe2c1-79a9-4dc2-8457-28bf527c24d3"
+                        }
+                    },
+                    "summary": {
+                        "raw": "made change 1 in test file\n",
+                        "markup": "markdown",
+                        "html": "<p>made change 1 in test file</p>",
+                        "type": "rendered"
+                    },
+                    "parents": [{
+                        "hash": "9b14a8097d0dcdbe9215fc4b18d19fbf58cf2c80",
+                        "type": "commit",
+                        "links": {
+                            "self": {
+                                "href": "https://api.bitbucket.org/2.0/repositories/shaibujnr/git_repos_sync/commit/9b14a8097d0dcdbe9215fc4b18d19fbf58cf2c80"
+                            },
+                            "html": {
+                                "href": "https://bitbucket.org/shaibujnr/git_repos_sync/commits/9b14a8097d0dcdbe9215fc4b18d19fbf58cf2c80"
+                            }
+                        }
+                    }],
+                    "date": "2020-09-05T16:21:05+00:00",
+                    "message": "made change 1 in test file\n",
+                    "type": "commit",
+                    "properties": {}
+                }
+            },
+            "links": {
+                "commits": {
+                    "href": "https://api.bitbucket.org/2.0/repositories/shaibujnr/git_repos_sync/commits?include=4f3bd46475786d3ce062534757394deb45872c37&exclude=98421a9d02db7c0f871d6a7f439432c2dff52892"
+                },
+                "html": {
+                    "href": "https://bitbucket.org/shaibujnr/git_repos_sync/branches/compare/4f3bd46475786d3ce062534757394deb45872c37..98421a9d02db7c0f871d6a7f439432c2dff52892"
+                },
+                "diff": {
+                    "href": "https://api.bitbucket.org/2.0/repositories/shaibujnr/git_repos_sync/diff/4f3bd46475786d3ce062534757394deb45872c37..98421a9d02db7c0f871d6a7f439432c2dff52892"
+                }
+            },
+            "created": false,
+            "commits": [{
+                "rendered": {},
+                "hash": "4f3bd46475786d3ce062534757394deb45872c37",
+                "links": {
+                    "self": {
+                        "href": "https://api.bitbucket.org/2.0/repositories/shaibujnr/git_repos_sync/commit/4f3bd46475786d3ce062534757394deb45872c37"
+                    },
+                    "comments": {
+                        "href": "https://api.bitbucket.org/2.0/repositories/shaibujnr/git_repos_sync/commit/4f3bd46475786d3ce062534757394deb45872c37/comments"
+                    },
+                    "patch": {
+                        "href": "https://api.bitbucket.org/2.0/repositories/shaibujnr/git_repos_sync/patch/4f3bd46475786d3ce062534757394deb45872c37"
+                    },
+                    "html": {
+                        "href": "https://bitbucket.org/shaibujnr/git_repos_sync/commits/4f3bd46475786d3ce062534757394deb45872c37"
+                    },
+                    "diff": {
+                        "href": "https://api.bitbucket.org/2.0/repositories/shaibujnr/git_repos_sync/diff/4f3bd46475786d3ce062534757394deb45872c37"
+                    },
+                    "approve": {
+                        "href": "https://api.bitbucket.org/2.0/repositories/shaibujnr/git_repos_sync/commit/4f3bd46475786d3ce062534757394deb45872c37/approve"
+                    },
+                    "statuses": {
+                        "href": "https://api.bitbucket.org/2.0/repositories/shaibujnr/git_repos_sync/commit/4f3bd46475786d3ce062534757394deb45872c37/statuses"
+                    }
+                },
+                "author": {
+                    "raw": "Shaibu Shaibu <s.shaibu.jnr@gmail.com>",
+                    "type": "author",
+                    "user": {
+                        "display_name": "Shaibu Shaibu",
+                        "uuid": "{70c7f42e-c86b-4e95-bf64-5da83f0d6ba7}",
+                        "links": {
+                            "self": {
+                                "href": "https://api.bitbucket.org/2.0/users/%7B70c7f42e-c86b-4e95-bf64-5da83f0d6ba7%7D"
+                            },
+                            "html": {
+                                "href": "https://bitbucket.org/%7B70c7f42e-c86b-4e95-bf64-5da83f0d6ba7%7D/"
+                            },
+                            "avatar": {
+                                "href": "https://secure.gravatar.com/avatar/d757daa4bb62d91b15f38493e22ef34e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-0.png"
+                            }
+                        },
+                        "nickname": "shaibujnr",
+                        "type": "user",
+                        "account_id": "557058:9cebe2c1-79a9-4dc2-8457-28bf527c24d3"
+                    }
+                },
+                "summary": {
+                    "raw": "change 2\n",
+                    "markup": "markdown",
+                    "html": "<p>change 2</p>",
+                    "type": "rendered"
+                },
+                "parents": [{
+                    "hash": "98421a9d02db7c0f871d6a7f439432c2dff52892",
+                    "type": "commit",
+                    "links": {
+                        "self": {
+                            "href": "https://api.bitbucket.org/2.0/repositories/shaibujnr/git_repos_sync/commit/98421a9d02db7c0f871d6a7f439432c2dff52892"
+                        },
+                        "html": {
+                            "href": "https://bitbucket.org/shaibujnr/git_repos_sync/commits/98421a9d02db7c0f871d6a7f439432c2dff52892"
+                        }
+                    }
+                }],
+                "date": "2020-09-06T13:26:19+00:00",
+                "message": "change 2\n",
+                "type": "commit",
+                "properties": {}
+            }],
+            "truncated": false,
+            "closed": false,
+            "new": {
+                "name": "master",
+                "links": {
+                    "commits": {
+                        "href": "https://api.bitbucket.org/2.0/repositories/shaibujnr/git_repos_sync/commits/master"
+                    },
+                    "self": {
+                        "href": "https://api.bitbucket.org/2.0/repositories/shaibujnr/git_repos_sync/refs/branches/master"
+                    },
+                    "html": {
+                        "href": "https://bitbucket.org/shaibujnr/git_repos_sync/branch/master"
+                    }
+                },
+                "default_merge_strategy": "merge_commit",
+                "merge_strategies": ["merge_commit", "squash", "fast_forward"],
+                "type": "branch",
+                "target": {
+                    "rendered": {},
+                    "hash": "4f3bd46475786d3ce062534757394deb45872c37",
+                    "links": {
+                        "self": {
+                            "href": "https://api.bitbucket.org/2.0/repositories/shaibujnr/git_repos_sync/commit/4f3bd46475786d3ce062534757394deb45872c37"
+                        },
+                        "html": {
+                            "href": "https://bitbucket.org/shaibujnr/git_repos_sync/commits/4f3bd46475786d3ce062534757394deb45872c37"
+                        }
+                    },
+                    "author": {
+                        "raw": "Shaibu Shaibu <s.shaibu.jnr@gmail.com>",
+                        "type": "author",
+                        "user": {
+                            "display_name": "Shaibu Shaibu",
+                            "uuid": "{70c7f42e-c86b-4e95-bf64-5da83f0d6ba7}",
+                            "links": {
+                                "self": {
+                                    "href": "https://api.bitbucket.org/2.0/users/%7B70c7f42e-c86b-4e95-bf64-5da83f0d6ba7%7D"
+                                },
+                                "html": {
+                                    "href": "https://bitbucket.org/%7B70c7f42e-c86b-4e95-bf64-5da83f0d6ba7%7D/"
+                                },
+                                "avatar": {
+                                    "href": "https://secure.gravatar.com/avatar/d757daa4bb62d91b15f38493e22ef34e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-0.png"
+                                }
+                            },
+                            "nickname": "shaibujnr",
+                            "type": "user",
+                            "account_id": "557058:9cebe2c1-79a9-4dc2-8457-28bf527c24d3"
+                        }
+                    },
+                    "summary": {
+                        "raw": "change 2\n",
+                        "markup": "markdown",
+                        "html": "<p>change 2</p>",
+                        "type": "rendered"
+                    },
+                    "parents": [{
+                        "hash": "98421a9d02db7c0f871d6a7f439432c2dff52892",
+                        "type": "commit",
+                        "links": {
+                            "self": {
+                                "href": "https://api.bitbucket.org/2.0/repositories/shaibujnr/git_repos_sync/commit/98421a9d02db7c0f871d6a7f439432c2dff52892"
+                            },
+                            "html": {
+                                "href": "https://bitbucket.org/shaibujnr/git_repos_sync/commits/98421a9d02db7c0f871d6a7f439432c2dff52892"
+                            }
+                        }
+                    }],
+                    "date": "2020-09-06T13:26:19+00:00",
+                    "message": "change 2\n",
+                    "type": "commit",
+                    "properties": {}
+                }
+            }
+        }]
+    },
+    "actor": {
+        "display_name": "Shaibu Shaibu",
+        "uuid": "{70c7f42e-c86b-4e95-bf64-5da83f0d6ba7}",
+        "links": {
+            "self": {
+                "href": "https://api.bitbucket.org/2.0/users/%7B70c7f42e-c86b-4e95-bf64-5da83f0d6ba7%7D"
+            },
+            "html": {
+                "href": "https://bitbucket.org/%7B70c7f42e-c86b-4e95-bf64-5da83f0d6ba7%7D/"
+            },
+            "avatar": {
+                "href": "https://secure.gravatar.com/avatar/d757daa4bb62d91b15f38493e22ef34e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-0.png"
+            }
+        },
+        "nickname": "shaibujnr",
+        "type": "user",
+        "account_id": "557058:9cebe2c1-79a9-4dc2-8457-28bf527c24d3"
+    },
+    "repository": {
+        "scm": "git",
+        "website": null,
+        "uuid": "{b0608607-5cc7-43dd-8c24-56b472abb0f1}",
+        "links": {
+            "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/shaibujnr/git_repos_sync"
+            },
+            "html": {
+                "href": "https://bitbucket.org/shaibujnr/git_repos_sync"
+            },
+            "avatar": {
+                "href": "https://bytebucket.org/ravatar/%7Bb0608607-5cc7-43dd-8c24-56b472abb0f1%7D?ts=default"
+            }
+        },
+        "project": {
+            "links": {
+                "self": {
+                    "href": "https://api.bitbucket.org/2.0/workspaces/shaibujnr/projects/PROJ"
+                },
+                "html": {
+                    "href": "https://bitbucket.org/shaibujnr/workspace/projects/PROJ"
+                },
+                "avatar": {
+                    "href": "https://bitbucket.org/account/user/shaibujnr/projects/PROJ/avatar/32?ts=1543704101"
+                }
+            },
+            "type": "project",
+            "name": "Untitled project",
+            "key": "PROJ",
+            "uuid": "{3a9408f4-9e23-4116-99e9-f9b0d0b10b86}"
+        },
+        "full_name": "shaibujnr/git_repos_sync",
+        "owner": {
+            "display_name": "Shaibu Shaibu",
+            "uuid": "{70c7f42e-c86b-4e95-bf64-5da83f0d6ba7}",
+            "links": {
+                "self": {
+                    "href": "https://api.bitbucket.org/2.0/users/%7B70c7f42e-c86b-4e95-bf64-5da83f0d6ba7%7D"
+                },
+                "html": {
+                    "href": "https://bitbucket.org/%7B70c7f42e-c86b-4e95-bf64-5da83f0d6ba7%7D/"
+                },
+                "avatar": {
+                    "href": "https://secure.gravatar.com/avatar/d757daa4bb62d91b15f38493e22ef34e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-0.png"
+                }
+            },
+            "nickname": "shaibujnr",
+            "type": "user",
+            "account_id": "557058:9cebe2c1-79a9-4dc2-8457-28bf527c24d3"
+        },
+        "workspace": {
+            "slug": "shaibujnr",
+            "type": "workspace",
+            "name": "Shaibu Shaibu",
+            "links": {
+                "self": {
+                    "href": "https://api.bitbucket.org/2.0/workspaces/shaibujnr"
+                },
+                "html": {
+                    "href": "https://bitbucket.org/shaibujnr/"
+                },
+                "avatar": {
+                    "href": "https://bitbucket.org/workspaces/shaibujnr/avatar/?ts=1543704101"
+                }
+            },
+            "uuid": "{70c7f42e-c86b-4e95-bf64-5da83f0d6ba7}"
+        },
+        "type": "repository",
+        "is_private": true,
+        "name": "git_repos_sync"
+    }
+}
