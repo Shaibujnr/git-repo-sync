@@ -21,3 +21,7 @@ GIT_SOURCE_USERNAME: str = config("GIT_SOURCE_USERNAME", cast=str)
 GIT_SOURCE_TOKEN: str = config("GIT_SOURCE_TOKEN", cast=str)
 
 GIT_STATE_PATH: str = config("GIT_STATE_PATH", cast=str)
+
+GIT_SOURCE_REPO_USERNAME: str = config("GIT_SOURCE_REPO_USERNAME", cast=str)
+
+GIT_SOURCE_REPO_PASSWORD: str = config("GIT_SOURCE_REPO_PASSWORD", cast=str)
