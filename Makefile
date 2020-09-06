@@ -14,6 +14,9 @@ build:
 serve:
 	docker-compose -f docker-compose.yml up --build -d
 
+serve-aws:
+	docker-compose -f docker-compose.aws.yml up --build -d
+
 migrate:
 	docker-compose run git_repo_sync-api alembic upgrade head
 

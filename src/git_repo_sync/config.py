@@ -16,8 +16,6 @@ ALLOWED_HOSTS: CommaSeparatedStrings = config(
     "ALLOWED_HOSTS", cast=CommaSeparatedStrings, default="localhost"
 )
 
-PORT: int = Config("PORT", cast=int, default=5000)
-
 GIT_SOURCE_USERNAME: str = Config("GIT_SOURCE_USERNAME", cast=str)
 
 GIT_SOURCE_TOKEN: str = Config("GIT_SOURCE_TOKEN", cast=str)

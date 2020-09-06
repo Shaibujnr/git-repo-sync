@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+    git_repo_sync-api:
+        build:
+            context: .
+            dockerfile: dev.dockerfile
+        container_name: git_repo_sync-api
+        volumes:
+            - .:/src/git_repo_sync/
+        expose:
+            - "5000"
+        env_file:
+            - env/.env.dev
+    nginx:
+        build: ./nginx
+        ports:
+            - 80:80
+        depends_on:
+            - git_repo_sync-api
