@@ -8,7 +8,7 @@ services:
         container_name: git_repo_sync-api
         volumes:
             - .:/src/git_repo_sync/
-            - ~/Workspace/Data:~/data
+            - ~/Workspace/Data:/data
         expose:
             - "5000"
         env_file:
